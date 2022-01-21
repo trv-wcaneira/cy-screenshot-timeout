@@ -1,0 +1,24 @@
+{
+  "name": "cy-screenshot-timeout",
+  "version": "1.0.0",
+  "description": "Minimal repro of cy.screenshot timeout/hang",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env CYPRESS_VERIFY_TIMEOUT=180000 cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trv-wcaneira/cy-screenshot-timeout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trv-wcaneira/cy-screenshot-timeout/issues"
+  },
+  "homepage": "https://github.com/trv-wcaneira/cy-screenshot-timeout#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cypress": "^9.2.1"
+  }
+}
